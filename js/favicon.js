@@ -18,9 +18,9 @@ function sleep(ms) {
 
 async function loop() {
   while (true) {
-      changeFavicon('/256.png');
+      changeFavicon('img/256.png');
       await sleep(2000);
-      changeFavicon('/256u.png');
+      changeFavicon('img/256u.png');
       await sleep(2000);
   }
 }
